@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Photography Portfolio</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+        }
+
+        header {
+            background-color: #333;
+            color: #fff;
+            padding: 10px;
+            text-align: center;
+        }
+
+        nav {
+            display: flex;
+            justify-content: space-around;
+            background-color: #555;
+            padding: 10px;
+        }
+
+        nav a {
+            text-decoration: none;
+            color: #fff;
+        }
+
+        section {
+            padding: 20px;
+            text-align: center;
+        }
+
+        footer {
+            background-color: #333;
+            color: #fff;
+            padding: 10px;
+            text-align: center;
+            position: absolute;
+            bottom: 0;
+            width: 100%;
+        }
+
+        .photo-container {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-around;
+        }
+
+        .photo {
+            width: 30%;
+            margin: 10px;
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1>Photography Portfolio</h1>
+    </header>
+
+    <nav>
+        <a href="#street">Street</a>
+        <a href="#portrait">Portrait</a>
+        <a href="#nightlife">Night Life</a>
+        <a href="#landscape">Landscape</a>
+    </nav>
+
+    <section id="street">
+        <h2>Street Photography</h2>
+        <div class="photo-container">
+            <div class="photo"><img src="street1.jpg" alt="Street Photo 1"><p>Crowded Streets</p></div>
+            <div class="photo"><img src="street2.jpg" alt="Street Photo 2"><p>Urban Vibes</p></div>
+            <!-- Add more street photos as needed -->
+        </div>
+    </section>
+
+    <section id="portrait">
+        <h2>Portrait Photography</h2>
+        <div class="photo-container">
+            <div class="photo"><img src="portrait1.jpg" alt="Portrait Photo 1"><p>Expressive Faces</p></div>
+            <div class="photo"><img src="portrait2.jpg" alt="Portrait Photo 2"><p>Capturing Emotions</p></div>
+            <!-- Add more portrait photos as needed -->
+        </div>
+    </section>
+
+    <section id="nightlife">
+        <h2>Night Life Photography</h2>
+        <div class="photo-container">
+            <div class="photo"><img src="nightlife1.jpg" alt="Night Life Photo 1"><p>City Lights</p></div>
+            <div class="photo"><img src="nightlife2.jpg" alt="Night Life Photo 2"><p>Neon Nights</p></div>
+            <!-- Add more night life photos as needed -->
+        </div>
+    </section>
+
+    <section id="landscape">
+        <h2>Landscape Photography</h2>
+        <div class="photo-container">
+            <div class="photo"><img src="landscape1.jpg" alt="Landscape Photo 1"><p>Natural Beauty</p></div>
+            <div class="photo"><img src="landscape2.jpg" alt="Landscape Photo 2"><p>Scenic Views</p></div>
+            <!-- Add more landscape photos as needed -->
+        </div>
+    </section>
+
+    <footer>
+        <p>&copy; 2023 Photography Portfolio</p>
+    </footer>
+
+</body>
+</html>
